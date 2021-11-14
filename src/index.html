@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gépírás Ellenőrzés</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="h1-title">Gépírás Ellenőrzés</h1>
+    <div class="container-fluid">
+      <ol
+        id="list-group"
+        class="list-group list-group-numbered center-list"
+      ></ol>
+      <div id="checking-section" class="center-list">
+        <div class="section-divider">
+          <div></div>
+          <div id="work-panel"></div>
+          <div id="info-panel">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                >Hibák száma</span
+              >
+              <input
+                id="fault-input"
+                type="text"
+                class="form-control"
+                placeholder="5"
+                aria-label="5"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+
+            <button id="work-done-button" type="button" class="btn btn-success">
+              Kész!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

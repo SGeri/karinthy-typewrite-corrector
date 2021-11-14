@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "CourierNew";
+  src: url("./fonts/courier_new.ttf");
+}
+
+.h1-title {
+  margin: 10px;
+}
+
+.courier-text {
+  height: 800px;
+  font-family: "CourierNew";
+}
+
+.list-group {
+  margin: 30px;
+}
+
+.center-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.short {
+  width: 600px;
+}
+
+.section-divider {
+  display: grid;
+  grid-template-columns: 450px 900px 450px;
+  width: 1800px;
+  padding: 10px;
+}
+
+.spellcheck-text {
+  outline: none;
+}

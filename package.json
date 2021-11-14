@@ -1,0 +1,24 @@
+{
+  "name": "typewrite-check",
+  "version": "1.0.0",
+  "description": "Corrector application for my project 'typewrite' for teachers",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . gepiras-ellenorzes --platform=all --out=build"
+  },
+  "keywords": [
+    "electron",
+    "hobby",
+    "filesystem"
+  ],
+  "author": "SGeri",
+  "devDependencies": {
+    "electron": "^15.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "electron-packager": "^15.4.0",
+    "fs-extra": "^10.0.0"
+  }
+}
